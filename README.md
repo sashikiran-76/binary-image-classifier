@@ -1,5 +1,6 @@
-image-classifier
-classification of images based on a supervised model
+# Tensorflow Image Classification
+CNN for multi-class image recognition in tensorflow
 
-2 sets of labelled images are fed as input to the network named "cnn.py".
-Network identifies features and learns to classify new images.
+Notebook converted from Hvass-Labs' <a href="https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/02_Convolutional_Neural_Network.ipynb" >tutorial</a> in order to work with custom datasets, flexible image dimensions, 3-channel images, training over epochs, early stopping, and a deeper network. 
+
+This example uses Kaggle's cats vs. dogs <a href="https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data">dataset</a>.
